@@ -5,7 +5,7 @@ def count_elements(array)
     if new_hash[:item]
       new_hash[:item] << += 1 
     else 
-      
+      new_hash[:item] << 1
   end 
 end
  
