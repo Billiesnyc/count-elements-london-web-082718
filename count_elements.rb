@@ -4,6 +4,8 @@ def count_elements(array)
   array.each do |item|
     if new_hash[:item]
       new_hash[:item] << += 1 
+    else 
+      
   end 
 end
  
