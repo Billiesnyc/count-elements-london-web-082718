@@ -1,11 +1,11 @@
 def count_elements(array)
   # code goes here
   new_hash = { }
-  array.map do |item|
-    if new_hash[:item]
+  array.each do |item|
+    if new_hash[item]
       new_hash[item] += 1
     else 
-      new_hash[:item] = 1
+      new_hash[item] = 1
     end
   end 
   new_hash
